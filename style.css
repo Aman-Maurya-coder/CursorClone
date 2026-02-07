@@ -941,3 +941,68 @@ footer .grid-container .item .link a{
     text-decoration: none;
 }
 
+footer .sec-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-v2);
+}
+
+footer .sec-footer .copyrights{
+    color: var(--color-theme-text-sec);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-g1\.5);
+}
+
+footer .sec-footer .copyrights small{
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    line-height: var(--leading-normal);
+    font-weight: var(--font-weight-normal);
+    letter-spacing: var(--tracking-sm);
+}
+
+footer .copyrights small a {
+    text-decoration: none;
+    color: var(--color-theme-text-sec);
+}
+
+footer .copyrights small a:hover {
+    color: var(--color-theme-text);
+}
+
+footer .controls{
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-g1\.5);
+}
+
+footer .controls .control-btn{
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    line-height: var(--leading-normal);
+    font-weight: var(--font-weight-normal);
+    letter-spacing: var(--tracking-sm);
+    text-align: center;
+    padding: calc(var(--spacing) * .5);
+    background-color: var(--color-theme-card-03-hex);
+    border-radius: 3.40282e38px;
+    display: flex;
+    border: 1px solid var(--color-theme-border-01);
+}
+
+footer .controls .control-btn button, footer .controls .lang-btn button {
+    display: inline-flex;
+    padding: var(--button-padding-sm);
+    justify-content: center;
+    align-items: center;
+    border-radius: 3.40282e38px;
+    cursor: pointer;
+    background-color: var(--color-theme-card-03-hex);
+    border: 1px solid var(--color-theme-border-01);
+    color: var(--color-theme-text);
+}
+
+
+
